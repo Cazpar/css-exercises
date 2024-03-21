@@ -9,6 +9,13 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* The second column is three times larger than the other */
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  /* The third row is five times larger than the others */
+  gap: 15px;
+  /* The gap is 15px */
 }
 
 .container div {
